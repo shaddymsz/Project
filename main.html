@@ -1,0 +1,184 @@
+<!docTYPE html>
+<html lang="en">
+<head>
+    <title>My CSS Website</title></head>
+    <link rel="stylesheet" href="style.css">
+<body>
+<nav>
+    <ul class="topnav" id="dropDown">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#about">about</a></li>
+        <li class="topnav"><a href="#signup">Sign up</a></li>
+        <li class="topnav"><a href="#signin">Sign in</a></li>
+    
+        <li class="dropdown"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+    
+    </ul>
+    </nav>
+    
+    <div class="container" id="gradient-section">
+        <div class="row">
+            <div class="col-6">
+            <div class="leftmargin">
+                <h1 class="larger">Crazy Radness</h1>
+                <h1 class="larger">Made for developer</h1>
+                </div>
+            <form class="leftmargin">
+                <h2>Username :</h2>
+                <input class="username" type="text" placeholder="Username">
+                <h2>Password :</h2>
+                <input class="password" type="text" placeholder="Password">
+                
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="video">
+            <div class="rightmargin">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/EceJQ05KTf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+                </div>
+        </div>
+    
+    </div>
+    
+    
+    <header>
+    <h1 class="second-section">The Standards of Awesomeness!</h1>
+    </header>
+    
+    <div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="logo.jpeg">
+                </div>
+                <label class="label">Chat with me</label>
+                <p>The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.
+
+                </p>
+            </div>
+        </div>
+                <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="logo.jpeg">
+                </div>
+                <label class="label">Dont say it .</label>
+                <p>The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.
+
+                </p>
+            </div>
+        </div>
+                <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="logo.jpeg">
+                </div>
+                <label class="label">Second thing</label>
+                <p>The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.
+
+                </p>
+            </div>
+        </div>
+        
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <button class="learnmore">Learn More!</button>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="container">
+        <div class="row">
+            <div class="col-7">
+            <article>
+                <p>The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.The project titled management System is for monitoring and controlling the book transactions .
+                    The project will be developed in java, with main focus on adding.</p>
+            </article>
+            </div>
+            <div class="col-10">
+                <div class="image">
+                    <img src="new.png">
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    <footer>
+        <div class="row">
+            <div class="col-3">
+                <ul>
+                    <li><h1>Company</h1></li>
+                    <li><h2>About</h2></li>
+                    <li><h2>Blogs</h2></li>
+                    <li><h2>Careers</h2></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><h1>Products</h1></li>
+                    <li><h2>Computer</h2></li>
+                    <li><h2>iPad </h2></li>
+                    <li><h2>iPhone</h2></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><h1>Learn More</h1></li>
+                    <li><h2>Developers</h2></li>
+                    <li><h2>Designers </h2></li>
+                    <li><h2>Hackers</h2></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><h1>Support</h1></li>
+                    <li><h2>Help</h2></li>
+                    <li><h2>QA </h2></li>
+                    <li><h2>Contact</h2></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    <script>
+    
+    function dropDownMenu(){
+        var x = document.getElementById("dropDown");
+        if (x.className === "topnav"){
+            x.className += " responsive";
+        }
+        else {
+            x.className = "topnav";
+                }
+        }
+    
+    
+    </script>
+
+
+
+</body>
+</html>
